@@ -13630,3 +13630,24 @@ Responsive For Mobile & Tablet Devices
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+#homesec6 .elementor-element-da66a2d .card {
+    border-radius: 20px;
+    border: 1px solid #573fcb;
+    padding: 20px;
+    background-color: transparent;
+    color: #d3d2d4;
+    height: 186px;
+    h3 {
+        color: #fff;
+    }
+}
+
+#homesec6 .elementor-element-da66a2d .card:hover {
+    background: linear-gradient( 209deg, #4d43d2, #6938c0);
+}
+
+#homesec6 {
+    background-color: #130c24;
+    color: #fff;
+}
