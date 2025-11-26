@@ -123,17 +123,19 @@
     padding: 0px 15px 0px 15px;
 }
 
-.elementor-377 .elementor-element.elementor-element-8f5b79b .funfact_block {
+
+/* .elementor-377 .elementor-element.elementor-element-8f5b79b .funfact_block {
     background-image: url(https://wp.xpressbuddy.com/synox/wp-content/uploads/2024/09/funfact_bg_1.svg);
-}
+} */
 
 .elementor-377 .elementor-element.elementor-element-5971ffd>.elementor-widget-container {
     margin: 30px 0px 0px 0px;
 }
 
-.elementor-377 .elementor-element.elementor-element-5971ffd .funfact_block {
+
+/* .elementor-377 .elementor-element.elementor-element-5971ffd .funfact_block {
     background-image: url(https://wp.xpressbuddy.com/synox/wp-content/uploads/2024/09/funfact_bg_2.svg);
-}
+} */
 
 .elementor-377 .elementor-element.elementor-element-f495984>.elementor-element-populated {
     padding: 0px 15px 0px 15px;
@@ -151,25 +153,25 @@
     padding: 0px 15px 0px 15px;
 }
 
-.elementor-377 .elementor-element.elementor-element-68270f9 .funfact_block {
+
+/* .elementor-377 .elementor-element.elementor-element-68270f9 .funfact_block {
     background-image: url(https://wp.xpressbuddy.com/synox/wp-content/uploads/2024/09/funfact_bg_3.svg);
-}
+} */
 
 .elementor-377 .elementor-element.elementor-element-22377f6>.elementor-widget-container {
     margin: 30px 0px 0px 0px;
 }
 
-.elementor-377 .elementor-element.elementor-element-22377f6 .funfact_block {
-    background-image: url(https://wp.xpressbuddy.com/synox/wp-content/uploads/2024/09/funfact_bg_4.svg);
-}
 
-.elementor-377 .elementor-element.elementor-element-df4095b:not(.elementor-motion-effects-element-type-background),
+/* .elementor-377 .elementor-element.elementor-element-22377f6 .funfact_block {
+    background-image: url(https://wp.xpressbuddy.com/synox/wp-content/uploads/2024/09/funfact_bg_4.svg);
+} */
+
+
+/* .elementor-377 .elementor-element.elementor-element-df4095b:not(.elementor-motion-effects-element-type-background),
 .elementor-377 .elementor-element.elementor-element-df4095b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("https://wp.xpressbuddy.com/synox/wp-content/uploads/2024/09/hero_bg_noise.webp");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-color: #140d26;
+} */
 
 .elementor-377 .elementor-element.elementor-element-df4095b>.elementor-background-overlay {
     background-image: url("https://wp.xpressbuddy.com/synox/wp-content/uploads/2024/09/hero_pattern.svg");
@@ -179,7 +181,7 @@
 
 .elementor-377 .elementor-element.elementor-element-df4095b {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 80px 0px 80px 0px;
+    padding: 10px 0px 80px 0px;
 }
 
 .elementor-377 .elementor-element.elementor-element-2c6ff51>.elementor-element-populated {
@@ -188,24 +190,28 @@
 
 .elementor-377 .elementor-element.elementor-element-52f2f93 {
     margin-bottom: 0px;
+    background: linear-gradient(180deg, #fff 50%, #ceb9ec);
+    padding: 80px 0px;
 }
 
 .elementor-377 .elementor-element.elementor-element-5a78dbb>.elementor-element-populated {
     padding: 0px 15px 0px 15px;
 }
 
-.elementor-377 .elementor-element.elementor-element-f1389d0:not(.elementor-motion-effects-element-type-background),
+
+/* .elementor-377 .elementor-element.elementor-element-f1389d0:not(.elementor-motion-effects-element-type-background),
 .elementor-377 .elementor-element.elementor-element-f1389d0>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #1C1C1E;
-}
+} */
 
-.elementor-377 .elementor-element.elementor-element-f1389d0 {
+
+/* .elementor-377 .elementor-element.elementor-element-f1389d0 {
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #D9FF43;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 70px 70px 70px 70px;
-}
+} */
 
 .elementor-377 .elementor-element.elementor-element-f1389d0,
 .elementor-377 .elementor-element.elementor-element-f1389d0>.elementor-background-overlay {

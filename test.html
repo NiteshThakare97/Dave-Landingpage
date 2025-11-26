@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="btn-wrapper">
+        <div class="btn-glow"></div>
+
+        <a href="#" class="btn-main" role="button" title="payment">
+            Get Started For Free
+        </a>
+    </div>
+
+    <style>
+        /* Container */
+        
+        .btn-wrapper {
+            position: relative;
+            display: inline-flex;
+            gap: 16px;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Glow background */
+        
+        .btn-glow {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, #6366f1, #ec4899, #facc15);
+            border-radius: 12px;
+            filter: blur(20px);
+            opacity: 0.6;
+            transition: opacity 0.6s ease, filter 0.6s ease;
+        }
+        /* Main Button */
+        
+        .btn-main {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #111827;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        /* Hover effects */
+        
+        .btn-main:hover {
+            background: #1f2937;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(75, 85, 99, 0.4);
+        }
+        
+        .btn-wrapper:hover .btn-glow {
+            opacity: 1;
+            filter: blur(30px);
+        }
+    </style>
+</body>
+
+</html>
