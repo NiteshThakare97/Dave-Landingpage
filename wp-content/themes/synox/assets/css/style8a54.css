@@ -457,10 +457,10 @@ mark {
 .main-menu>ul>li>a {
     display: inline-block;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--bs-white);
     padding: 20px 0;
-    font-family: 'SuisseIntl Medium';
+    /* font-family: 'SuisseIntl Medium'; */
     position: relative;
     font-weight: 500;
     line-height: 22px;
@@ -482,7 +482,7 @@ mark {
 
 .header_layout_3 .main-menu>ul>li>a:focus,
 .header_layout_2 .main-menu>ul>li>a:focus {
-    color: var(--bs-dark);
+    color: #695be5;
 }
 
 .header_layout_3 .stricked-menu .main-menu>ul>li:hover>a,
@@ -495,11 +495,11 @@ mark {
 }
 
 .main-menu>ul>li>a:focus {
-    color: var(--bs-white);
+    color: #695be5;
 }
 
 .stricked-menu .main-menu>ul>li>a {
-    color: var(--bs-dark);
+    color: #fff;
     padding: 30px 0;
 }
 
@@ -537,13 +537,13 @@ mark {
 .main-menu ul li:hover>a,
 .main-menu ul li.current-menu-ancestor>a,
 .main-menu ul li.current_page_item>a {
-    color: var(--bs-primary);
+    color: #695be5;
 }
 
 .stricked-menu .main-menu>ul>li:hover>a,
 .stricked-menu .main-menu>ul>li.current-menu-ancestor>a,
 .stricked-menu .main-menu>ul>li.current_page_item>a {
-    color: var(--bs-dark);
+    color: #695be5;
 }
 
 .header_layout_2 .stricked-menu .main-menu>ul>li>a {
@@ -2548,7 +2548,7 @@ mark {
 .xb-close {
     background: rgba(0, 0, 0, 0.04);
     border: 9px solid transparent;
-    color: #777;
+    color: #fff;
     width: 36px;
     height: 36px;
     display: inline-flex;
@@ -2574,7 +2574,7 @@ mark {
     -ms-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-color: #1b1b1b;
+    background-color: #fff;
 }
 
 .xb-close::before {
@@ -4950,8 +4950,8 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .mobile_menu_btn:hover {
-    color: var(--bs-heading-color);
-    background-color: var(--bs-primary);
+    color: #fff;
+    background-color: #695be5;
 }
 
 .header-payment-solutions .mobile_menu_btn {
@@ -5162,9 +5162,9 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @media (max-width: 991px) {
-    /* .xb-hamburger-menu {
+    .xb-hamburger-menu {
         display: block;
-    } */
+    }
     .stricked-menu {
         padding: 12px 0;
     }
@@ -5210,7 +5210,7 @@ input[type=search]::-webkit-search-results-decoration {
     -o-transform: translateX(-100%);
     transform: translateX(-100%);
     visibility: hidden;
-    background-color: #fff;
+    background-color: #37236b;
     overflow-y: scroll;
 }
 
@@ -5322,9 +5322,9 @@ input[type=search]::-webkit-search-results-decoration {
 .xb-menu-primary li a {
     display: block;
     line-height: 46px;
-    color: var(--bs-dark);
-    font-size: 14px;
-    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
@@ -12329,11 +12329,12 @@ Responsive For Mobile & Tablet Devices
     }
 }
 
-@media screen and (max-width: 700px) {
+
+/* @media screen and (max-width: 700px) {
     .header_layout_1 .btns_group>li:last-child {
         display: none;
     }
-}
+} */
 
 @media screen and (max-width: 662px) {
     .review_marquee_vertical_up,
@@ -14601,7 +14602,7 @@ Responsive For Mobile & Tablet Devices
 .elementor-element-177002ba a {
     color: #fff;
     font-size: 25px;
-    padding: 10px 5px;
+    padding: 0px 5px;
 }
 
 .elementor-element-496ac5af {
@@ -14610,7 +14611,7 @@ Responsive For Mobile & Tablet Devices
 
 .elementor-element-29f234ea p {
     font-size: 16px;
-    padding-right: 31%;
+    padding-right: 24%;
     letter-spacing: 1px;
 }
 
@@ -14645,6 +14646,84 @@ Responsive For Mobile & Tablet Devices
 
 #dapecosystem .elementor-element-983da67 .elementor-element-5971ffd ul li::marker {
     color: #f9ae0e;
+}
+
+
+/* Tooltip Container */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* Tooltip Content */
+
+.tooltip-content {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 120%;
+    /* Above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0088cc;
+    /* Telegram Blue */
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 8px;
+    text-align: center;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    z-index: 99;
+    min-width: 130px;
+}
+
+
+/* Tooltip Arrow */
+
+.tooltip-content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    /* Pointing downward */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #0088cc transparent transparent transparent;
+}
+
+
+/* Links inside Tooltip */
+
+.tooltip-content a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 4px 0;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.tooltip-content a:hover {
+    color: #ffe600;
+    /* Highlight color */
+}
+
+
+/* Show Tooltip on Hover */
+
+.tooltip:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 1000px) {
+    .site_header .btns_group {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
