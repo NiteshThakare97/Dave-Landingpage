@@ -3071,7 +3071,7 @@ mark {
 
 .heading_block .heading_text {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 60px;
     margin-bottom: 14px;
     letter-spacing: -0.5px;
@@ -5162,9 +5162,9 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @media (max-width: 991px) {
-    .xb-hamburger-menu {
+    /* .xb-hamburger-menu {
         display: block;
-    }
+    } */
     .stricked-menu {
         padding: 12px 0;
     }
@@ -7016,7 +7016,7 @@ input[type=search]::-webkit-search-results-decoration {
     background-repeat: no-repeat;
     padding: 0px;
     background-position: center center;
-    border-radius: 30px;
+    border-radius: 32px;
     border: 2px solid #4b44d3;
     height: 525px;
     -webkit-box-shadow: 19px 122px 35px 0 rgba(0, 0, 0, 0), 12px 78px 32px 0 rgba(0, 0, 0, 0.01), 7px 44px 27px 0 rgba(0, 0, 0, 0.05), 3px 19px 20px 0 rgba(0, 0, 0, 0.09), 1px 5px 11px 0 rgba(0, 0, 0, 0.1);
@@ -11184,7 +11184,7 @@ Responsive For Mobile & Tablet Devices
 
 @media screen and (max-width: 1660px) {
     .site_header .btns_group {
-        gap: 6px;
+        gap: 16px;
         margin-left: -91px;
     }
 }
@@ -12761,8 +12761,8 @@ Responsive For Mobile & Tablet Devices
         left: 15px;
     }
     .hero_online_banking .hero_title {
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 38px;
+        line-height: 40px;
     }
     .hero_online_banking {
         padding: 130px 0 0;
@@ -13359,7 +13359,7 @@ Responsive For Mobile & Tablet Devices
 .hero_section .btn {
     background-color: #695be5;
     padding: 14px 20px 12px;
-    font-weight: 600;
+    font-weight: 500;
     color: aliceblue;
 }
 
@@ -13381,7 +13381,7 @@ Responsive For Mobile & Tablet Devices
 .elementor-element-2226132 h2 {
     font-size: 46px;
     padding-bottom: 30px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 #homesec2 {
@@ -13404,10 +13404,6 @@ Responsive For Mobile & Tablet Devices
     padding: 10px 30px;
     width: fit-content;
     margin: 27px 0px;
-}
-
-#homesec2-2subtit h4 {
-    font-weight: 600;
 }
 
 #homesec2-2 ul li {
@@ -13535,7 +13531,7 @@ Responsive For Mobile & Tablet Devices
 
 #homesec2-3tit h2 {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     width: fit-content;
     padding: 1.2% 9%;
     background: #392673;
@@ -13700,11 +13696,11 @@ Responsive For Mobile & Tablet Devices
 #dapecosystem {
     .card-bodyfun ul {
         font-style: italic;
-        font-weight: 600;
+        /* font-weight: 600; */
     }
     .card-bodyfun h5 {
         margin-bottom: 30px;
-        font-weight: 600;
+        /* font-weight: 600; */
     }
     .wave {
         position: absolute;
@@ -13885,7 +13881,7 @@ Responsive For Mobile & Tablet Devices
         position: relative;
         border-radius: 1rem;
         overflow: hidden;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
         font-size: 22px;
         --gradient: linear-gradient(to bottom, #3c8ffc, #565cd9, #6939c1);
         --color: #6f6afd;
@@ -13913,7 +13909,7 @@ Responsive For Mobile & Tablet Devices
     .notititle {
         color: var(--color);
         padding: 0.65rem 0.25rem 0rem 2rem;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 34px;
         transition: transform 300ms ease;
         z-index: 5;
@@ -14028,8 +14024,8 @@ Responsive For Mobile & Tablet Devices
     top: -50%;
     left: 0;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #4086f7 75%, #673dc4 100%);
-    -webkit-animation: drop 7s 0s infinite;
-    animation: drop 7s 0s infinite;
+    -webkit-animation: drop 12s 0s infinite;
+    animation: drop 12s 0s infinite;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -14466,7 +14462,7 @@ Responsive For Mobile & Tablet Devices
         border-radius: 50%;
         backdrop-filter: blur(15px);
         border: 1px solid #beb4dd;
-        background: linear-gradient( 270deg, #f1dae0, #d4c7ef);
+        background: #fff;
         transition: .5s ease;
         box-shadow: 0 0 20px rgba(255, 255, 255, .1);
     }
@@ -14613,9 +14609,17 @@ Responsive For Mobile & Tablet Devices
 }
 
 .elementor-element-29f234ea p {
-    font-size: 18px;
-    padding-right: 28%;
+    font-size: 16px;
+    padding-right: 31%;
     letter-spacing: 1px;
+}
+
+#mainbanner-card {
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
+    display: none;
+    width: 200px;
 }
 
 #footer-up {
@@ -14636,5 +14640,173 @@ Responsive For Mobile & Tablet Devices
     h3 {
         color: #fefefe;
         margin-bottom: 0px;
+    }
+}
+
+#dapecosystem .elementor-element-983da67 .elementor-element-5971ffd ul li::marker {
+    color: #f9ae0e;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .hero_section h1 {
+        font-size: 38px;
+        line-height: 53px;
+        margin: 15px 0 3px;
+    }
+    .hero_section h4 {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    .hero_section p {
+        font-size: 16px;
+    }
+    .elementor-377 .elementor-element.elementor-element-6c87da8 .hero_online_banking {
+        padding-bottom: 80px;
+        background-image: none !important;
+        background-color: #37236b !important;
+    }
+    #mainbanner-card {
+        display: block;
+    }
+    #night {
+        margin-right: auto;
+    }
+    .online_banking_features .imagebox_block .imagebox_icon {
+        width: 70px;
+        height: 70px;
+    }
+    #homesec2-2 .imagebox_icon img {
+        width: 30px;
+    }
+    .online_banking_features.small-height .imagebox_content>.d-flex {
+        flex-wrap: wrap;
+    }
+    .online_banking_features .imagebox_block .imagebox_title {
+        margin: 0px;
+    }
+    #homesec2-3 .elementor-container {
+        flex-direction: column-reverse;
+        .elementor-col-40 {
+            width: 100%;
+        }
+    }
+    #homesec2-3 .elementor-element-1b88b34 {
+        margin: auto;
+    }
+    #homesec5 {
+        padding: 6% 1% 5%;
+        background-position: bottom;
+    }
+    #homesec6 .elementor-element-da66a2d .card {
+        padding: 12px 5px 5px 5px;
+        height: 212px;
+    }
+    .funfact_block.style_2 {
+        padding: 0%;
+    }
+    #homesec8 .card {
+        height: 303px;
+    }
+    #home10img {
+        top: -299px;
+    }
+    #homesec10 {
+        padding: 242px 0px 74px 0px;
+    }
+    #footer-up button {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    #homesec10 .fancy-card {
+        height: 437px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .elementor-377 .elementor-element.elementor-element-6c87da8 .hero_online_banking {
+        background-image: none !important;
+        padding: 130px 0px 250px;
+        .badge {
+            white-space: inherit;
+            line-height: 20px;
+        }
+    }
+    .hero_section h4 {
+        font-size: 22px;
+        letter-spacing: 0px;
+    }
+    #mainbanner-card {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    #night {
+        width: 90%;
+        .loader h4 {
+            font-size: 24px;
+            letter-spacing: 2px;
+            padding: 7px 3px 0px 0px;
+        }
+        .loader {
+            font-size: 26px;
+        }
+    }
+    .elementor-377 .elementor-element.elementor-element-b2ec4fb .imagebox_content .d-flex {
+        flex-wrap: wrap;
+    }
+    #homesec2-3tit h2 {
+        padding: 2.2% 9%;
+        font-size: 28px;
+    }
+    .elementor-377 .elementor-element.elementor-element-450cd04 {
+        margin-top: -47px;
+    }
+    #homesec5 {
+        background-position: bottom;
+        padding: 11% 5% 5%;
+    }
+    #homesec5 h2 {
+        font-size: 38px;
+        letter-spacing: 0px;
+    }
+    #dapecosystem {
+        .funfact_block.style_2 {
+            padding: 0px;
+        }
+        .funfact_block.style_2>.card-bodyfun {
+            padding: 32px 22px 16px 22px;
+        }
+    }
+    #roadmap {
+        .radio:checked~.content {
+            width: auto;
+        }
+    }
+    .elementor-377 .elementor-element.elementor-element-10d74cd {
+        padding: 80px 0px 300px 0px !important;
+    }
+    #homesec10 {
+        padding: 91px 0px 110px 0px;
+    }
+    #home10img {
+        top: -170px;
+    }
+    .elementor-element-29f234ea p {
+        padding-right: 5%;
+    }
+    #footer-up {
+        margin: -14% auto 0%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .elementor-element-67f1069 .online_banking_features .imagebox_block .image_block {
+        height: 220px;
+    }
+    .elementor-element-38da772 .online_banking_features .imagebox_block .image_block {
+        height: 206px;
+    }
+    .elementor-element-6bf1339 .online_banking_features .imagebox_block .image_block {
+        height: 325px;
+        margin: 0 -14px 0;
     }
 }
